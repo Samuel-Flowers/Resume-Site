@@ -5,7 +5,7 @@ import TechnicalSkill from "../components/TechnicalSkill";
 
 const About = () => {
   return (
-    <div className="text-white font-poppins flex flex-col items-center space-y-16 mb-16">
+    <div className="text-white font-poppins flex flex-col items-center space-y-12">
       <Nav />
       <AboutMe />
       <TechnicalSkill />
