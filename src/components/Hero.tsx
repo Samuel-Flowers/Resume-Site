@@ -7,7 +7,7 @@ const Hero = () => {
       <h1>I'm Sam.</h1>
       <div className="flex flex-row gap-2">
         <p>Look at my</p>
-        <Link to="/projects" className="text-[#78C7C0] hover:text-[#78C7D9]">projects!</Link>
+        <Link to="/projects" className="text-[#78C7C0] hover:underline hover:text-[#78C7D9]">projects!</Link>
       </div>
     </div>
   );
