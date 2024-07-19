@@ -19,7 +19,7 @@ I recently graduated with a computer science degree and this is the place where 
 
 Almost all of my updates are addressed in the form of an issue. I will make a separate branch to solve the issue and if it is solved, I will merge it into the main branch. The GitHub pages portion will then have to be adjusted as well. The URL samuelflowers.com will be down for a couple of minutes each time an update occurs. 
 
-##Contact
+## Contact
 
 While my contact information can be found in the contact dropdown found in the navigation bar. However the following are ways to contact me:
 - **Email**: Samf3653@gmail.com
