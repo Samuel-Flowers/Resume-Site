@@ -37,14 +37,14 @@ const projectTopicsData: ProjectTopicData[] = [
         description:
           "Simply made backend for an app concept called 'BotsCryOut.'",
         link: "https://github.com/sflowers51/CIS467-SP24-lab1.git",
-        demo: "",
+        demo: "https://github.com/sflowers51/CIS467-SP24-lab1.git",
       },
       {
         projectname: "Facade App",
         description:
           "Mobile app project, using .NET MAUI, which is like Wordle, but with hexcodes.",
         link: "https://github.com/sflowers51/CIS388-FA23-facade.git",
-        demo: "",
+        demo: "https://github.com/sflowers51/CIS388-FA23-facade.git",
       },
       {
         projectname: "SunnySide Landing Page",
@@ -63,21 +63,21 @@ const projectTopicsData: ProjectTopicData[] = [
         projectname: "MOGI",
         description: "Mobile app team project based on the game priorities.",
         link: "https://github.com/FHU/Priorities.git",
-        demo: "",
+        demo: "src/assets/img/MOGI.pdf",
       },
       {
         projectname: "BeKindly.Today Backend Team",
         description:
           "The backend for a DevOps class project which was a web application based on BeReal.",
         link: "https://github.com/FHU/BeKindlyTodayBackend.git",
-        demo: "",
+        demo: "https://bekindly.today/home",
       },
       {
         projectname: "Scriptured Prayer",
         description:
           "FHU 2024 Computer Science Capstone web application built to improve prayer habits.",
         link: "https://github.com/PrayTeam/scriptured-prayer.git",
-        demo: "",
+        demo: "https://github.com/PrayTeam/scriptured-prayer.git",
       },
     ],
   },
@@ -90,7 +90,7 @@ const projectTopicsData: ProjectTopicData[] = [
         description:
           "Machine learning project that detects whether a news article is fake.",
         link: "https://github.com/gavboler03/MLApplication.git",
-        demo: "",
+        demo: "https://fakenewsarticleimage-fakenewsarticleimage.onrender.com",
       },
     ],
   },
