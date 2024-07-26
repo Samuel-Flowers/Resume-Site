@@ -26,7 +26,6 @@ const ProjectWell: React.FC<ProjectWellProps> = ({ content }) => {
               href={link.demo}
               
               target="_blank"
-              rel="noopener noreferrer"
               className="lg:text-3xl md:text-2xl text-xl hover:text-[#CCCCCC]"
             >
               {link.projectname}
