@@ -44,7 +44,7 @@ const projectTopicsData: ProjectTopicData[] = [
         description:
           "Mobile app project, using .NET MAUI, which is like Wordle, but with hexcodes.",
         link: "https://github.com/sflowers51/CIS388-FA23-facade.git",
-        demo: "https://github.com/sflowers51/CIS388-FA23-facade.git",
+        demo: "../src/assets/img/Facade.png",
       },
       {
         projectname: "SunnySide Landing Page",
@@ -63,7 +63,7 @@ const projectTopicsData: ProjectTopicData[] = [
         projectname: "MOGI",
         description: "Mobile app team project based on the game priorities.",
         link: "https://github.com/FHU/Priorities.git",
-        demo: "src/assets/img/MOGI.pdf",
+        demo: "../src/assets/img/MOGI.pdf",
       },
       {
         projectname: "BeKindly.Today Backend Team",
