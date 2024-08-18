@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && npm run dev",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "send": "git add . && powershell -Command \"$commitMessage = Read-Host 'Commit message:'; git commit -m $commitMessage; git push origin main; npm run deploy",

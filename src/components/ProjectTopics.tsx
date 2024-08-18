@@ -18,9 +18,9 @@ const ProjectTopics: React.FC<ProjectTopicsProps> = ({
   onTopicClick,
 }) => {
   return (
-    <div className="lg:w-[800px] md:w-[600px] w-[400px] mt-16">
+    <div className="lg:w-[800px] md:w-[600px] w-[400px] mt-16 ">
       <div className="lg:text-4xl md:text-3xl text-2xl text-center m-10">Topics</div>
-      <div className="flex md:flex-row flex-col items-center lg:gap-10 gap-4">
+      <div className="flex md:flex-row flex-col items-center lg:gap-10 gap-4 ">
       {topics.map((topic) => (
         <ProjectTopic
           key={topic.id}

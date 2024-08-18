@@ -14,7 +14,7 @@ interface ProjectWellProps {
 
 const ProjectWell: React.FC<ProjectWellProps> = ({ content }) => {
   return (
-    <div className="lg:w-[800px] md:w-[600px] w-[300px] border rounded-lg flex flex-col   lg:p-12 md:p-10 p-5 ">
+    <div className="lg:w-[800px] md:w-[600px] w-[350px]  flex flex-col  border rounded-lg lg:p-12 md:p-10  p-2">
       <h1 className="text-center md:text-3xl lg:text-4xl">Github Links</h1>
       {content.map((link, index) => (
         <div
@@ -35,7 +35,7 @@ const ProjectWell: React.FC<ProjectWellProps> = ({ content }) => {
               href={link.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="lg:text-xl md:text-lg text-md px-5 hover:text-[#CCCCCC] hover:underline "
+              className="lg:text-xl md:text-lg text-sm px-5 hover:text-[#CCCCCC] hover:underline "
             >
               github
             </a>
@@ -43,13 +43,13 @@ const ProjectWell: React.FC<ProjectWellProps> = ({ content }) => {
               href={link.demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="lg:text-xl md:text-lg text-md px-5 hover:text-[#CCCCCC] hover:underline "
+              className="lg:text-xl md:text-lg text-sm px-5 hover:text-[#CCCCCC] hover:underline "
             >
               demo
             </a>
             </div>
           </div>
-          <p className="md:text-xl">{link.description}</p>
+          <p className="md:text-xl text-md">{link.description}</p>
         </div>
       ))}
     </div>
