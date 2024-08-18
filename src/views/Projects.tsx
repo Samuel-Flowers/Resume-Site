@@ -66,7 +66,7 @@ const projectTopicsData: ProjectTopicData[] = [
         demo: "../assets/img/MOGI.pdf",
       },
       {
-        projectname: "BeKindly.Today Backend Team",
+        projectname: "BeKindly.Today Backend",
         description:
           "The backend for a DevOps class project which was a web application based on BeReal.",
         link: "https://github.com/FHU/BeKindlyTodayBackend.git",
