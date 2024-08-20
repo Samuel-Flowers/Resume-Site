@@ -90,7 +90,7 @@ const projectTopicsData: ProjectTopicData[] = [
         description:
           "Machine learning project that detects whether a news article is fake.",
         link: "https://github.com/gavboler03/MLApplication.git",
-        demo: "https://fakenewsarticleimage-fakenewsarticleimage.onrender.com",
+        demo: "https://fakenewsdetector-cjkc.onrender.com/",
       },
     ],
   },

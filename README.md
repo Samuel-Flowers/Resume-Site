@@ -17,7 +17,9 @@ I recently graduated with a computer science degree and this is the place where 
 
 ## Updating
 
-Almost all of my updates are addressed in the form of an issue. I will make a separate branch to solve the issue and if it is solved, I will merge it into the main branch. The GitHub pages portion will then have to be adjusted as well. The URL samuelflowers.com will be down for a couple of minutes each time an update occurs. 
+Almost all of my updates are addressed in the form of an issue. I will make a separate branch to solve the issue and if it is solved, I will merge it into the main branch. The GitHub pages portion will then have to be adjusted as well. The domain samuelflowers.com will be down for a couple of minutes each time an update occurs and may have to be manually reentered into the custom domain section. 
+
+Most of the updates of late have not been the method that I have described above and have been mostly implemented and pushed to main which is not ideal. However, this is my project and I am the only one as of late to make any additions. Therefore, I can do what I want. 
 
 ## Contact
 
