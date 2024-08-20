@@ -35,18 +35,19 @@ const ProjectWell: React.FC<ProjectWellProps> = ({ content }) => {
               href={link.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="lg:text-xl md:text-lg text-sm px-5 hover:text-[#CCCCCC] hover:underline "
+              // className="lg:text-xl md:text-lg text-sm px-5 hover:text-[#CCCCCC] hover:underline "
+              className="lg:text-xl md:text-lg text-sm hover:text-[#CCCCCC] hover:underline "
             >
               github
             </a>
-            <a
+            {/* <a
               href={link.demo}
               target="_blank"
               rel="noopener noreferrer"
               className="lg:text-xl md:text-lg text-sm px-5 hover:text-[#CCCCCC] hover:underline "
             >
               demo
-            </a>
+            </a> */}
             </div>
           </div>
           <p className="md:text-xl text-md">{link.description}</p>
