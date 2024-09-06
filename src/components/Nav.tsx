@@ -34,7 +34,7 @@ const Nav: React.FC = () => {
             Home
           </Link>
           <div className="relative hover:text-[#CCCCCC] hover:underline">
-            <button onClick={toggleMenu}>Contact</button>
+            <button onClick={toggleMenu}>Contacts & Links</button>
             {isMenuOpen && (
               <div ref={menuRef}>
                 <MediaIcons />
