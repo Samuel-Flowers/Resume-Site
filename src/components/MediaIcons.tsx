@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faFile, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons"; /*faFile for resume*/
 
 const MediaIcons: React.FC = () => {
   return (
@@ -41,7 +41,7 @@ const MediaIcons: React.FC = () => {
           LinkedIn
         </a>
       </span>
-      <span className="md:text-2xl text-lg text-white items-center grid grid-cols-2 hover:text-[#CCCCCC]">
+      {/* <span className="md:text-2xl text-lg text-white items-center grid grid-cols-2 hover:text-[#CCCCCC]">
         <FontAwesomeIcon icon={faFile} />
         <a
           href="../assets/img/Samuel-Flowers-Resume.pdf"
@@ -51,7 +51,7 @@ const MediaIcons: React.FC = () => {
         >
           Resume
         </a>
-      </span>
+      </span> */}
       <span className="md:text-2xl text-lg text-white items-center grid grid-cols-2 hover:text-[#CCCCCC]">
         <FontAwesomeIcon icon={faGithub} />
         <a

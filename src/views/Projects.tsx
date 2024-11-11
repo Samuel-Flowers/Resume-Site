@@ -72,13 +72,13 @@ const projectTopicsData: ProjectTopicData[] = [
         link: "https://github.com/FHU/BeKindlyTodayBackend.git",
         demo: "https://bekindly.today/home",
       },
-      {
-        projectname: "Scriptured Prayer",
-        description:
-          "FHU 2024 Computer Science Capstone web application built to improve prayer habits.",
-        link: "https://github.com/PrayTeam/scriptured-prayer.git",
-        demo: "https://github.com/PrayTeam/scriptured-prayer.git",
-      },
+      // {
+      //   projectname: "Scriptured Prayer",
+      //   description:
+      //     "FHU 2024 Computer Science Capstone web application built to improve prayer habits.",
+      //   link: "https://github.com/PrayTeam/scriptured-prayer.git",
+      //   demo: "https://github.com/PrayTeam/scriptured-prayer.git",
+      // },
     ],
   },
   {
