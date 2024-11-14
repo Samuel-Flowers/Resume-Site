@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "predeploy": "npm run build",
-    "this_is_a_comment":"the command below is, for some reason, what makes this be able to work with github pages right now. it clears cache for gh-pages",
+    "this_is_a_comment": "the command below is, for some reason, what makes this be able to work with github pages right now. it clears cache for gh-pages",
     "deploy": "powershell -Command \"Remove-Item -Recurse -Force './node_modules/.cache/gh-pages'\" && npm run predeploy && gh-pages -d dist",
     "send": "git add . && powershell -Command \"$commitMessage = Read-Host 'Commit message:'; git commit -m $commitMessage; git push origin main; npm run deploy",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -41,6 +41,6 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.2.2",
-    "vite": "^5.2.0"
+    "vite": "^5.4.11"
   }
 }

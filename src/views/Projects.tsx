@@ -40,6 +40,13 @@ const projectTopicsData: ProjectTopicData[] = [
         demo: "https://mellow-babka-88731d.netlify.app/",
       },
       {
+        projectname: "Facade App",
+        description:
+          "Mobile app project, using .NET MAUI, which is like Wordle, but with hexcodes.",
+        link: "https://github.com/sflowers51/CIS388-FA23-facade.git",
+        demo: "../assets/img/Facade.png",
+      },
+      {
         projectname: "Resume Site",
         description:
           "The website this page is a part of.",
@@ -71,13 +78,6 @@ const projectTopicsData: ProjectTopicData[] = [
           "Simply made backend for an app concept called 'BotsCryOut.'",
         link: "https://github.com/sflowers51/CIS467-SP24-lab1.git",
         demo: "https://github.com/sflowers51/CIS467-SP24-lab1.git",
-      },
-      {
-        projectname: "Facade App",
-        description:
-          "Mobile app project, using .NET MAUI, which is like Wordle, but with hexcodes.",
-        link: "https://github.com/sflowers51/CIS388-FA23-facade.git",
-        demo: "../assets/img/Facade.png",
       },
       // {
       //   projectname: "Scriptured Prayer",
