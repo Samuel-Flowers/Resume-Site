@@ -26,10 +26,10 @@ const MediaIcons: React.FC = () => {
           Gmail
         </a>
       </span>
-      <span className="md:text-2xl text-lg text-white items-center grid grid-cols-2">
+      {/* <span className="md:text-2xl text-lg text-white items-center grid grid-cols-2">
         <FontAwesomeIcon icon={faPhone} />
         <p className="md:text-sm text-xs">615-670-7342</p>
-      </span>
+      </span> */}
       <span className="md:text-2xl text-lg text-white items-center grid grid-cols-2 hover:text-[#CCCCCC]">
         <FontAwesomeIcon icon={faLinkedin} />
         <a

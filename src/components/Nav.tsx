@@ -25,7 +25,7 @@ const Nav: React.FC = () => {
 
   return (
     <>
-      <div className="bg-[#393F40] w-full text-white p-4 z-50 flex flex-row md:justify-between justify-end pt-[15px] md:px-[25px] text-2xl absolute pl-5 ">
+      <div className="bg-[#393F40] w-full text-white p-5 z-50 flex flex-row md:justify-between justify-end pt-[15px] md:px-[25px] text-2xl absolute pl-5 ">
         <Link to="/" className="hover:text-[#CCCCCC] hidden md:block">
           SF
         </Link>
@@ -34,7 +34,7 @@ const Nav: React.FC = () => {
             Home
           </Link>
           <div className="relative hover:text-[#CCCCCC] hover:underline">
-            <button onClick={toggleMenu}>Contacts & Links</button>
+            <button onClick={toggleMenu}>Contacts</button>
             {isMenuOpen && (
               <div ref={menuRef}>
                 <MediaIcons />

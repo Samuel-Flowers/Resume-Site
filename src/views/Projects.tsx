@@ -33,25 +33,18 @@ const projectTopicsData: ProjectTopicData[] = [
         demo: "https://bright-begonia-3e06c6.netlify.app/",
       },
       {
-        projectname: "BotsCryOut Backend",
-        description:
-          "Simply made backend for an app concept called 'BotsCryOut.'",
-        link: "https://github.com/sflowers51/CIS467-SP24-lab1.git",
-        demo: "https://github.com/sflowers51/CIS467-SP24-lab1.git",
-      },
-      {
-        projectname: "Facade App",
-        description:
-          "Mobile app project, using .NET MAUI, which is like Wordle, but with hexcodes.",
-        link: "https://github.com/sflowers51/CIS388-FA23-facade.git",
-        demo: "../assets/img/Facade.png",
-      },
-      {
         projectname: "SunnySide Landing Page",
         description:
           "Mock landing page for fictional company SunnySide. Project for web development class and challenge from Frontend Mentor.",
         link: "https://github.com/sflowers51/CIS367-FA23-lab1.git",
         demo: "https://mellow-babka-88731d.netlify.app/",
+      },
+      {
+        projectname: "Resume Site",
+        description:
+          "The website this page is a part of.",
+        link: "https://github.com/sflowers51/Resume-Site.git",
+        demo: "https://samuelflowers.com",
       },
     ],
   },
@@ -71,6 +64,20 @@ const projectTopicsData: ProjectTopicData[] = [
           "The backend for a DevOps class project which was a web application based on BeReal.",
         link: "https://github.com/FHU/BeKindlyTodayBackend.git",
         demo: "https://bekindly.today/home",
+      },
+      {
+        projectname: "BotsCryOut Backend",
+        description:
+          "Simply made backend for an app concept called 'BotsCryOut.'",
+        link: "https://github.com/sflowers51/CIS467-SP24-lab1.git",
+        demo: "https://github.com/sflowers51/CIS467-SP24-lab1.git",
+      },
+      {
+        projectname: "Facade App",
+        description:
+          "Mobile app project, using .NET MAUI, which is like Wordle, but with hexcodes.",
+        link: "https://github.com/sflowers51/CIS388-FA23-facade.git",
+        demo: "../assets/img/Facade.png",
       },
       // {
       //   projectname: "Scriptured Prayer",
