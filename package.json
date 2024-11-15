@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && npx vite build",
+    "build": "tsc && vite build",
     "predeploy": "npm run build",
     "this_is_a_comment":"the command below is, for some reason, what makes this be able to work with github pages right now. it clears cache for gh-pages",
     "deploy": "npm run predeploy && gh-pages -d dist",
