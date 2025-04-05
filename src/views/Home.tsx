@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 
 const Home = () => {
   return (
-    <div className="text-white font-poppins flex flex-col">
+    <div className="text-white font-poppins flex flex-col bg-[#393F40]">
       <Nav />
       <Hero />
     </div>
